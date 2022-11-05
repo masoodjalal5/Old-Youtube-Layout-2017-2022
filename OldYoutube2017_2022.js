@@ -48,7 +48,7 @@ var styleSheet = "" +
 "#movie_player > div.ytp-chrome-bottom{width: 768px !important;}" +
 "ytd-watch-flexy[flexy][is-two-columns_] #columns.ytd-watch-flexy{justify-content: space-between !important;}" +
 "#columns{padding-left: 1% !important; justify-content: center !important}" +
-"#secondary{margin-left: 15% !important;}"+
+"#secondary{margin-left: 10% !important;}"+
 "#primary{margin: 0 !important;}" +
 "#movie_player > div.ytp-player-content.ytp-iv-player-content{width: 768px !important; height: 432px !important;}" +
 "#ytp-caption-window-container{width: 768px !important;}" +
