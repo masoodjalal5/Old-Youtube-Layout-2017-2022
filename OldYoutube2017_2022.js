@@ -54,6 +54,8 @@ var styleSheet = "" +
 "#ytp-caption-window-container{width: 768px !important;}" +
 "#container{width: 768px !important}" +
 "#below{width: 768px !important;}"
+"#movie_player > div.ytp-iv-video-content{display: none !important:}"
+;
 ;
 
 (function() {
