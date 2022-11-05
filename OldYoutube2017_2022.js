@@ -53,9 +53,9 @@ var styleSheet = "" +
 "#movie_player > div.ytp-player-content.ytp-iv-player-content{width: 768px !important; height: 432px !important;}" +
 "#ytp-caption-window-container{width: 768px !important;}" +
 "#container{width: 768px !important}" +
-"#below{width: 768px !important;}"
-"#movie_player > div.ytp-iv-video-content{display: none !important:}"
-;
+"#below{width: 768px !important;}" +
+"#movie_player > div.ytp-iv-video-content{display: none !important;}" +
+"#movie_player > div.ytp-gradient-bottom{width: 745px;}"
 ;
 
 (function() {
