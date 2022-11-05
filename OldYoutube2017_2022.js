@@ -8,7 +8,7 @@ Other than that nothing much in here.
 // ==UserScript==
 // @name         Old Youtube Layout 2017-2022
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Just hate the new Youtube UI so i tinkered with it to make it look like the old one. Not a great sucess but it gets half the work done.
 // @author       Masood Jalal
 // @match        https://chrome.google.com/webstore/detail/youtube-redux/mdgdgieddpndgjlmeblhjgljejejkikf?hl=en
@@ -47,13 +47,19 @@ var styleSheet = "" +
 "#player-container-outer{width: 768px !important; height: 450px !important;}" +
 "#movie_player > div.ytp-chrome-bottom{width: 768px !important;}" +
 "ytd-watch-flexy[flexy][is-two-columns_] #columns.ytd-watch-flexy{justify-content: space-between !important;}" +
-"#columns{padding-left: 1% !important; justify-content: space-between !important;}" +
-"#secondary{padding: 1% !important;}"+
-"#primary{margin: 0 !important;}";
+"#columns{padding-left: 1% !important; justify-content: center !important}" +
+"#secondary{margin-left: 15% !important;}"+
+"#primary{margin: 0 !important;}" +
+"#movie_player > div.ytp-player-content.ytp-iv-player-content{width: 768px !important; height: 432px !important;}" +
+"#ytp-caption-window-container{width: 768px !important;}" +
+"#container{width: 768px !important}" +
+"#below{width: 768px !important;}"
+;
 
 (function() {
     var s = document.createElement("style");
     s.type = "text/css";
     s.innerHTML = styleSheet;
     (document.Head || document.documentElement).appendChild(s);
+
 })();
